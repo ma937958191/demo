@@ -1,0 +1,9 @@
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"  //生成key
+
+运行： clip < ~/.ssh/id_rsa.pub  //获取密钥
+
+2：获取项目代码： git clone genb   git@github.com:ma937958191/demo.git 地址
+
+3： 从本地文件添加代码到仓库：git add first.txt
+	//查看状态：git status
+	提交文件git commit -m "这是添加备注的信息" 
